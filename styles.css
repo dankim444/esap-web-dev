@@ -1,0 +1,30 @@
+div {
+    color: purple
+}
+
+p {
+    color: blue;
+}
+
+.one, .two {
+    color: red;
+    background-color: yellow;
+}
+
+.one {
+    /* some unique styles for div one */
+    font-size: 125px;
+}
+
+.two {
+    /* some unique styles for div two*/
+    font-weight: bold;
+}
+
+#change {
+    color: red;
+}
+
+.ancestor .child {
+    color: green;
+}
